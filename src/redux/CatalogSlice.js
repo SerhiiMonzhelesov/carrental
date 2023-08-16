@@ -5,6 +5,8 @@ const initialState = {
   carsToDisplay: [],
   allCars: null,
   filter: null,
+  isShowModal: false,
+  carForModal: null,
 };
 
 const catalogSlice = createSlice({
@@ -12,6 +14,12 @@ const catalogSlice = createSlice({
   initialState,
 
   reducers: {
+    toggleShowModal(state, action) {
+      state.isShowModal = !state.isShowModal;
+    },
+    addCarForModal(state, { payload }) {
+      state.carForModal = payload;
+    },
     //     setFilter(state, action) {
     //       state.filter = action.payload;
     //     },
@@ -29,3 +37,4 @@ const catalogSlice = createSlice({
 });
 
 export const catalogReducer = catalogSlice.reducer;
+export const { toggleShowModal, addCarForModal } = catalogSlice.actions;

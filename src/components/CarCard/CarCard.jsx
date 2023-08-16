@@ -1,7 +1,7 @@
 import { Button } from '@mui/material';
 import { StyledCarCard, StyledThumbImg } from './StyledCarCard';
 
-function CarCard({ car }) {
+function CarCard({ car, handleLearnMore }) {
   const {
     make,
     model,
@@ -25,7 +25,9 @@ function CarCard({ car }) {
         {address} | {rentalCompany} | {type} | {model} | {id} |{' '}
         {functionalities[0]}
       </p>
-      <Button variant="contained">LEARN MORE</Button>
+      <Button id={id} variant="contained" onClick={handleLearnMore}>
+        LEARN MORE
+      </Button>
     </StyledCarCard>
   );
 }
