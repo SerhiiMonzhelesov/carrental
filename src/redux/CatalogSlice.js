@@ -1,8 +1,9 @@
 import { createSlice } from '@reduxjs/toolkit';
-import { allCarsThunk } from './allCarsThunk';
+import { allCarsThunk, firstPageCatalogThunk } from './CatalogThunk';
 
 const initialState = {
-  cars: null,
+  carsToDisplay: [],
+  allCars: null,
   filter: null,
 };
 
@@ -10,16 +11,20 @@ const catalogSlice = createSlice({
   name: 'catalog',
   initialState,
 
-  //   reducers: {
-  //     setFilter(state, action) {
-  //       state.filter = action.payload;
-  //     },
-  //   },
+  reducers: {
+    //     setFilter(state, action) {
+    //       state.filter = action.payload;
+    //     },
+  },
 
   extraReducers: builder => {
-    builder.addCase(allCarsThunk.fulfilled, (state, action) => {
-      state.cars = action.payload;
-    });
+    builder
+      .addCase(firstPageCatalogThunk.fulfilled, (state, { payload }) => {
+        state.carsToDisplay = [...state.carsToDisplay, ...payload];
+      })
+      .addCase(allCarsThunk.fulfilled, (state, { payload }) => {
+        state.allCars = payload;
+      });
   },
 });
 

@@ -16,7 +16,7 @@ function CarCard({ car }) {
   } = car;
   return (
     <StyledCarCard>
-      <StyledThumbImg urlImg={img} />
+      <StyledThumbImg $urlimg={img} />
       <h3>
         {make} <span>{model}</span>, {year}
       </h3>

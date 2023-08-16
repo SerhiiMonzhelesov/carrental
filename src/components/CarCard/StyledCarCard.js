@@ -16,7 +16,7 @@ export const StyledThumbImg = styled.div`
   width: 100%;
   height: 268px;
   border-radius: 14px;
-  background-image: url(${props => props.urlImg});
+  background-image: url(${props => props.$urlimg});
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
