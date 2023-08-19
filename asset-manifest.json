@@ -1,13 +1,27 @@
 {
   "files": {
-    "main.css": "/carrental/static/css/main.b5320759.css",
-    "main.js": "/carrental/static/js/main.0f0de84f.js",
+    "main.css": "/carrental/static/css/main.b05bae81.css",
+    "main.js": "/carrental/static/js/main.bd419dff.js",
+    "static/js/497.41b0edb0.chunk.js": "/carrental/static/js/497.41b0edb0.chunk.js",
+    "static/js/25.4f3e9ef4.chunk.js": "/carrental/static/js/25.4f3e9ef4.chunk.js",
+    "static/js/157.ab87f5e7.chunk.js": "/carrental/static/js/157.ab87f5e7.chunk.js",
+    "static/js/512.b95b0455.chunk.js": "/carrental/static/js/512.b95b0455.chunk.js",
+    "static/js/283.d0b98988.chunk.js": "/carrental/static/js/283.d0b98988.chunk.js",
+    "static/media/Manrope-SemiBold.ttf": "/carrental/static/media/Manrope-SemiBold.310f108cc524df0e5ffc.ttf",
+    "static/media/Manrope-Medium.ttf": "/carrental/static/media/Manrope-Medium.08894ccb04665d1a9d53.ttf",
+    "static/media/Manrope-Regular.ttf": "/carrental/static/media/Manrope-Regular.a9b9e09fe6b69741f316.ttf",
+    "static/media/bg-rental-avto-homepage.jpg": "/carrental/static/media/bg-rental-avto-homepage.5425a9e53e21ced94d15.jpg",
     "index.html": "/carrental/index.html",
-    "main.b5320759.css.map": "/carrental/static/css/main.b5320759.css.map",
-    "main.0f0de84f.js.map": "/carrental/static/js/main.0f0de84f.js.map"
+    "main.b05bae81.css.map": "/carrental/static/css/main.b05bae81.css.map",
+    "main.bd419dff.js.map": "/carrental/static/js/main.bd419dff.js.map",
+    "497.41b0edb0.chunk.js.map": "/carrental/static/js/497.41b0edb0.chunk.js.map",
+    "25.4f3e9ef4.chunk.js.map": "/carrental/static/js/25.4f3e9ef4.chunk.js.map",
+    "157.ab87f5e7.chunk.js.map": "/carrental/static/js/157.ab87f5e7.chunk.js.map",
+    "512.b95b0455.chunk.js.map": "/carrental/static/js/512.b95b0455.chunk.js.map",
+    "283.d0b98988.chunk.js.map": "/carrental/static/js/283.d0b98988.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b5320759.css",
-    "static/js/main.0f0de84f.js"
+    "static/css/main.b05bae81.css",
+    "static/js/main.bd419dff.js"
   ]
 }
