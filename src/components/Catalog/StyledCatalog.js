@@ -7,4 +7,6 @@ export const StyledCatalog = styled.ul`
   flex-wrap: wrap;
   column-gap: 29px;
   row-gap: 50px;
+  padding: 0;
+  margin: 0 0 100px 0;
 `;

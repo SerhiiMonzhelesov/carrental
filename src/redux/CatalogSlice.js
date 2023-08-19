@@ -4,7 +4,7 @@ import { allCarsThunk, firstPageCatalogThunk } from './CatalogThunk';
 const initialState = {
   carsToDisplay: [],
   allCars: null,
-  filter: null,
+  filteredCars: null,
   isShowModal: false,
   carForModal: null,
 };
@@ -20,9 +20,12 @@ const catalogSlice = createSlice({
     addCarForModal(state, { payload }) {
       state.carForModal = payload;
     },
-    //     setFilter(state, action) {
-    //       state.filter = action.payload;
-    //     },
+    setFilter(state, { payload }) {
+      state.filteredCars = payload;
+    },
+    setReturn(state) {
+      state.filteredCars = null;
+    },
   },
 
   extraReducers: builder => {
@@ -37,4 +40,5 @@ const catalogSlice = createSlice({
 });
 
 export const catalogReducer = catalogSlice.reducer;
-export const { toggleShowModal, addCarForModal } = catalogSlice.actions;
+export const { toggleShowModal, addCarForModal, setFilter, setReturn } =
+  catalogSlice.actions;
