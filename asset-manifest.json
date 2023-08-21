@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/carrental/static/css/main.b05bae81.css",
+    "main.css": "/carrental/static/css/main.5c3dea5e.css",
     "main.js": "/carrental/static/js/main.bd419dff.js",
     "static/js/497.41b0edb0.chunk.js": "/carrental/static/js/497.41b0edb0.chunk.js",
     "static/js/25.4f3e9ef4.chunk.js": "/carrental/static/js/25.4f3e9ef4.chunk.js",
@@ -12,7 +12,7 @@
     "static/media/Manrope-Regular.ttf": "/carrental/static/media/Manrope-Regular.a9b9e09fe6b69741f316.ttf",
     "static/media/bg-rental-avto-homepage.jpg": "/carrental/static/media/bg-rental-avto-homepage.5425a9e53e21ced94d15.jpg",
     "index.html": "/carrental/index.html",
-    "main.b05bae81.css.map": "/carrental/static/css/main.b05bae81.css.map",
+    "main.5c3dea5e.css.map": "/carrental/static/css/main.5c3dea5e.css.map",
     "main.bd419dff.js.map": "/carrental/static/js/main.bd419dff.js.map",
     "497.41b0edb0.chunk.js.map": "/carrental/static/js/497.41b0edb0.chunk.js.map",
     "25.4f3e9ef4.chunk.js.map": "/carrental/static/js/25.4f3e9ef4.chunk.js.map",
@@ -21,7 +21,7 @@
     "283.d0b98988.chunk.js.map": "/carrental/static/js/283.d0b98988.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b05bae81.css",
+    "static/css/main.5c3dea5e.css",
     "static/js/main.bd419dff.js"
   ]
 }
